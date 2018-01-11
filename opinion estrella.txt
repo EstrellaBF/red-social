@@ -1,0 +1,30 @@
+**GENERAL
+-El título del app se desborda en la mayoría de las páginas. Intentar ponerlo en row, column
+-Las letras del menú si se ponen un poquito más claras se vería mejor.
+**REGISTER
+-Me gusta que se verifique el correo y que cuando el correo y contraseña sean true se active el boton ingresar.
+-Lo que me gustaría es que indiquen cuantas letras minimo tiene que haber en la contraseña para que se active el boton(ejm: contraseña minimo 7 caracteres).
+-Creo que poniendo a un 
+-Me encanta que funcione muy bien el formulario de "crear cuenta nueva".
+**PROFILE JOB
+- El nombre de la empresa no se ve bien al no tener un margen con respecto a los íconos.
+2. Me encanta que la imagen la guarde, pero al guardar, la foto se duplica y no encaja en el recuadro. Al poner en consola Styles y poner a la imagen el estilo width: 100%; 
+3. El botón de guardar al pasar el mouse las letras se ponen negras, y no se visualiza, me hubiese gustado un color más vivo cuando se pasa el mouse para que me den ganas de clickear.
+-Si al profile-job.html linea 26 a la etiqueta a con clase navbar-brand le ponen display: flex;flex-direction: column;
+    justify-content: center; el icono ce centra y no se descuadra en la vista mobile y se ve bien en la vista desktop. Creo que solo faltaba ponerle una caja que contenta a esa etiqueta ya que si ponemos un outline a esa etiqueta a de la linea 26, se puede ver que está posicionado arriba, pero su contenido que es una etiqueta img, esta fuera de esa caja. Poniendo el código anterior con display flex la imagen cuadra en su contenedor, pero el contenedor está pegado arriba. Para centrarlo es lo mismo pero debería estar atado a un div o ponerle al contenedor más cercano, un wrap o un padding.
+En todo el menu si se hubiese puesto un row y column hubiese arreglado los problemas de flotabilidad.
+-Me encanta que la vista este para mobile, tablet y desktop sin que se deforme, el unico problemita es que el icono de home parece que flotase y estubiese fuera de su contenedor, pero al inspeccionar está bien posicionado.Quizá arreglando su color, o poniendo una información adicional se vería que NO pertenece al menu, ya que al estar de color blanco al menos a mi me da la sensación de que se movió, más no de que pertenece a otro column por así decirlo.
+
+
+**SEARCH-SERVICES
+-Me encanta mucho la distribución, los íconos y todo, me da ganas de curiosear y pedir un electricista o albañil, me llama mucho la atención y lo veo bastante vendible.
+-Los iconos y sus contenedores padres e hijos no son responsive
+-Si al contenedor .box lo ponemos un ejemplo como     min-width: 100px; al achicar la pantalla este no se deforma.
+-Me hubiese gustado que en la vista tablet o desktop, los cuadros que contienen al icono se achiquen asi como en la vista mobile y no se ensanche, con una regla en query para que en tablet y desktop reduzca su tamaño, o poniendolos todo en un div se hubiese puesto un flex y dependiendo su posición (align-contents o justify content) con space-between o space-around se organice automáticamente. 
+-Al pasar el cursor en desktop por las cajitas de electricista, gasfitero, hubiese sido bueno ver una mano o un efecto hover para que den ganas de clickear.
+
+**LIST-SERVICES.
+-Me encanta la parte de publicaciones, y funciona. Aunque creo que debería ir en alguna parte que tenga que ver con los clientes, o que le parece a los usuarios, algo así.
+-Cuando le doy en view o follow me jala a la parte de arriba
+-En los proveedores, el view lanza a la página web y eso se ve excelente! Me encanta!
+-Lo de las estrellitas ME ENCANTA!!!
